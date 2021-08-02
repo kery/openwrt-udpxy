@@ -1,12 +1,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=udpxy
-PKG_VERSION:=1.0-25.1c
+PKG_VERSION:=1.0-25.1c1
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/kery/udpxy.git
-PKG_SOURCE_VERSION:=70dfcf67d77104efa66f807016a3f4857c2d6958
+PKG_SOURCE_VERSION:=2acca81a2524f15ffd258242118a13f5d641a40b
 
 PKG_INSTALL:=1
 PKG_BUILD_PARALLEL:=1
@@ -43,4 +43,3 @@ define Package/udpxy/install
 endef
 
 $(eval $(call BuildPackage,udpxy))
-
